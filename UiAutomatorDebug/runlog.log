@@ -1,0 +1,497 @@
+Added file K:\UIworkspace\UiDemo\build.xml
+Buildfile: K:\UIworkspace\UiDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at K:\adt-bundle-linux-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: K:\UIworkspace\UiDemo\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to K:\UIworkspace\UiDemo\bin\classes
+    [javac] K:\UIworkspace\UiDemo\src\com\jikexueyuan\demo\Demo1.java:19: ¾¯¸æ: ±àÂëUTF-8µÄ²»¿ÉÓ³Éä×Ö·û
+    [javac] 		new UiObject(new UiSelector().text("?????")).clickAndWaitForNewWindow();
+    [javac] 		                                    ^
+    [javac] K:\UIworkspace\UiDemo\src\com\jikexueyuan\demo\Demo1.java:19: ¾¯¸æ: ±àÂëUTF-8µÄ²»¿ÉÓ³Éä×Ö·û
+    [javac] 		new UiObject(new UiSelector().text("?????")).clickAndWaitForNewWindow();
+    [javac] 		                                     ^
+    [javac] K:\UIworkspace\UiDemo\src\com\jikexueyuan\demo\Demo1.java:19: ¾¯¸æ: ±àÂëUTF-8µÄ²»¿ÉÓ³Éä×Ö·û
+    [javac] 		new UiObject(new UiSelector().text("?????")).clickAndWaitForNewWindow();
+    [javac] 		                                      ^
+    [javac] K:\UIworkspace\UiDemo\src\com\jikexueyuan\demo\Demo1.java:19: ¾¯¸æ: ±àÂëUTF-8µÄ²»¿ÉÓ³Éä×Ö·û
+    [javac] 		new UiObject(new UiSelector().text("?????")).clickAndWaitForNewWindow();
+    [javac] 		                                       ^
+    [javac] K:\UIworkspace\UiDemo\src\com\jikexueyuan\demo\Demo1.java:19: ¾¯¸æ: ±àÂëUTF-8µÄ²»¿ÉÓ³Éä×Ö·û
+    [javac] 		new UiObject(new UiSelector().text("?????")).clickAndWaitForNewWindow();
+    [javac] 		                                        ^
+    [javac] 5 ¸ö¾¯¸æ
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\UIworkspace\UiDemo\bin\classes
+      [dex] Converting compiled files and external libraries into K:\UIworkspace\UiDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\UIworkspace\UiDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+176 KB/s (4893 bytes in 0.027s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.demo.Demo1:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.demo.Demo1
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testBrowser:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=ï¿½ï¿½ï¿½ï¿½ï¿½]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at com.jikexueyuan.demo.Demo1.testBrowser(Demo1.java:19)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.demo.Demo1
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[TEXT=ï¿½ï¿½ï¿½ï¿½ï¿½]
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+
+	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:410)
+
+	at com.jikexueyuan.demo.Demo1.testBrowser(Demo1.java:19)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 13.228
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\UIworkspace\UiDemo\build.xml
+Buildfile: K:\UIworkspace\UiDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at K:\adt-bundle-linux-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\UIworkspace\UiDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\UIworkspace\UiDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\UIworkspace\UiDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\UIworkspace\UiDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+19 KB/s (4896 bytes in 0.247s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.demo.Demo1:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.demo.Demo1
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.demo.Demo1
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 12.495
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\UIworkspace\UiDemo\build.xml
+Buildfile: K:\UIworkspace\UiDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at K:\adt-bundle-linux-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\UIworkspace\UiDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\UIworkspace\UiDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\UIworkspace\UiDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\UIworkspace\UiDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+19 KB/s (4909 bytes in 0.247s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.demo.Demo1:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.demo.Demo1
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.demo.Demo1
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 21.546
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\UIworkspace\UiDemo\build.xml
+Buildfile: K:\UIworkspace\UiDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at K:\adt-bundle-linux-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to K:\UIworkspace\UiDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\UIworkspace\UiDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into K:\UIworkspace\UiDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\UIworkspace\UiDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+2463 KB/s (4930 bytes in 0.001s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.demo.Demo1:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.demo.Demo1
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.demo.Demo1
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.54
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file K:\UIworkspace\UiDemo\build.xml
+Buildfile: K:\UIworkspace\UiDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at K:\win64\adt-bundle-windows-x86_64-20140702\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for Demo...
+[getuitarget] Project Target:   Android 4.4W
+[getuitarget] API level:        20
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: K:\UIworkspace\UiDemo\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to K:\UIworkspace\UiDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: K:\UIworkspace\UiDemo\bin\classes
+      [dex] Converting compiled files and external libraries into K:\UIworkspace\UiDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: K:\UIworkspace\UiDemo\bin\Demo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+407 KB/s (4494 bytes in 0.010s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.jikexueyuan.demo.Demo1:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.demo.Demo1
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testBrowser
+
+INSTRUMENTATION_STATUS: class=com.jikexueyuan.demo.Demo1
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 19.802
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+

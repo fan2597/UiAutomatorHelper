@@ -75,16 +75,34 @@ public class CtsHelper {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-//		CtsHelper tCts=new CtsHelper();
-//		tCts.runTest();
-		
-		String workspase="J:\\workspace\\LevovoAppBasicSmokeAutoTest\\";
-		String className="com.lenovo.uitest.calculator.CalculatorCase_V2_1";
-		String jarName="CalculatorCTS";
-		String androidId="4";
-		String sdkPath="C:\\Program Files (x86)\\DongZhouSoft\\SmartRobot";
-		
-		new CtsHelper(workspase, className, jarName, androidId, sdkPath);
+		String workspase="";
+		String className="";
+		String jarName="";
+		String androidId="";
+		String sdkPath="";
+		String devices="";
+        for(int i=0;i<args.length;i++){
+        	if(args[i].equals("--workspase")){
+        		workspase=args[i+1];
+        	}else 
+        	if(args[i].equals("--class_name")){
+        		className=args[i+1];
+        	}else 
+        	if(args[i].equals("--jar_name")){
+        		jarName=args[i+1];
+        	}else 
+        	if(args[i].equals("--android_id")){
+            		androidId=args[i+1];
+            }else if(args[i].equals("--sdk_path")){
+            		sdkPath=args[i+1];
+            }else
+             if(args[i].equals("-s")){
+             		devices=args[i+1];
+             }
+        }
+        CtsHelper cts=new CtsHelper(workspase, className, jarName, androidId, sdkPath);
+        cts.setDevices(devices);
+        cts.runTest();
 		
 	}
 	/**

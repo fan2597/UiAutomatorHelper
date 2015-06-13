@@ -495,3 +495,750 @@ OK (1 test)
 
 INSTRUMENTATION_STATUS_CODE: -1
 
+Updated file C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+Buildfile: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.0.1
+ [checkenv] Installed at E:\Program Files (x86)\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.1.2
+     [echo] Resolving Build Target for demo1...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 3 source files to C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+      [dex] Converting compiled files and external libraries into C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\demo1.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 6 seconds
+Updated file C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+Buildfile: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.0.1
+ [checkenv] Installed at E:\Program Files (x86)\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.1.2
+     [echo] Resolving Build Target for demo1...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\demo1.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+Updated file C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+Buildfile: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.0.1
+ [checkenv] Installed at E:\Program Files (x86)\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.1.2
+     [echo] Resolving Build Target for demo1...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\demo1.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+Error: Target id is not valid. Use 'android.bat list targets' to get the target ids.
+Buildfile: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.0.1
+ [checkenv] Installed at E:\Program Files (x86)\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.1.2
+     [echo] Resolving Build Target for demo1...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\demo1.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+Updated file C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+Buildfile: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.0.1
+ [checkenv] Installed at E:\Program Files (x86)\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.1.2
+     [echo] Resolving Build Target for demo1...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\demo1.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+Updated file C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+Buildfile: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.0.1
+ [checkenv] Installed at E:\Program Files (x86)\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.1.2
+     [echo] Resolving Build Target for demo1...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\demo1.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+Updated file C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+Buildfile: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.0.1
+ [checkenv] Installed at E:\Program Files (x86)\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.1.2
+     [echo] Resolving Build Target for demo1...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\demo1.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+Updated file C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+Buildfile: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.0.1
+ [checkenv] Installed at E:\Program Files (x86)\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.1.2
+     [echo] Resolving Build Target for demo1...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\demo1.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+Updated file C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+Buildfile: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.0.1
+ [checkenv] Installed at E:\Program Files (x86)\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.1.2
+     [echo] Resolving Build Target for demo1...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\demo1.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+Updated file C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+Buildfile: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.0.1
+ [checkenv] Installed at E:\Program Files (x86)\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.1.2
+     [echo] Resolving Build Target for demo1...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\demo1.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+Updated file C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+Buildfile: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.0.1
+ [checkenv] Installed at E:\Program Files (x86)\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.1.2
+     [echo] Resolving Build Target for demo1...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\demo1.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+Updated file C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+Buildfile: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.0.1
+ [checkenv] Installed at E:\Program Files (x86)\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.1.2
+     [echo] Resolving Build Target for demo1...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\demo1.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+Updated file C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+Buildfile: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.0.1
+ [checkenv] Installed at E:\Program Files (x86)\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.1.2
+     [echo] Resolving Build Target for demo1...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\demo1.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+Updated file C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+Buildfile: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.0.1
+ [checkenv] Installed at E:\Program Files (x86)\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.1.2
+     [echo] Resolving Build Target for demo1...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\demo1.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+Updated file C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+Buildfile: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.0.1
+ [checkenv] Installed at E:\Program Files (x86)\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.1.2
+     [echo] Resolving Build Target for demo1...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\demo1.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+Error: Target id is not valid. Use 'android.bat list targets' to get the target ids.
+Buildfile: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.0.1
+ [checkenv] Installed at E:\Program Files (x86)\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.1.2
+     [echo] Resolving Build Target for demo1...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes.dex...
+Updated file C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+Buildfile: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.0.1
+ [checkenv] Installed at E:\Program Files (x86)\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.1.2
+     [echo] Resolving Build Target for demo1...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\demo1.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+Updated file C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+Buildfile: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.0.1
+ [checkenv] Installed at E:\Program Files (x86)\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.1.2
+     [echo] Resolving Build Target for demo1...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\demo1.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+Updated file C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+Buildfile: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.0.1
+ [checkenv] Installed at E:\Program Files (x86)\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.1.2
+     [echo] Resolving Build Target for demo1...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\demo1.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 4 seconds
+
+       Usage:
+       android [global options] create uitest-project [action options]
+       Global options:
+  -h --help       : Help on a specific command.
+  -v --verbose    : Verbose mode, shows errors, warnings and all messages.
+     --clear-cache: Clear the SDK Manager repository manifest cache.
+  -s --silent     : Silent mode, shows errors only.
+
+                                Action "create uitest-project":
+  Creates a new UI test project.
+Options:
+  -p --path    : The new project's directory. [required]
+  -n --name    : Project name.
+  -t --target  : Target ID of the new project. [required]
+Error: Oops, it looks like you didn't provide an argument for '-n'.
+'-t' was found instead.
+Buildfile: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 24.0.1
+ [checkenv] Installed at E:\Program Files (x86)\Android\android-sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 21.1.2
+     [echo] Resolving Build Target for demo1...
+[getuitarget] Project Target:   Android 4.4
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\fanhq\git\UiAutomatorHelper\UiAutomatorDebug\bin\classes.dex...

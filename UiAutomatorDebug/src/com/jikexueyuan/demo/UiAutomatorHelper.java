@@ -52,7 +52,32 @@ public class UiAutomatorHelper {
 		System.out.println("*******************");
 		System.out.println("---FINISH DEBUG----");
 		System.out.println("*******************");
-	}		
+	}
+	/**
+	 * 需求：build 和 复制jar到指定目录
+	 * @param jarName
+	 * @param testClass
+	 * @param testName
+	 * @param androidId
+	 * @param isRun
+	 */
+	public UiAutomatorHelper(String jarName, String testClass, String testName,
+			String androidId,String ctsTestCasePath){
+		System.out.println("-----------start--uiautomator--debug-------------");
+		workspace_path = getWorkSpase();
+		System.out.println("----工作空间：\t\n" + getWorkSpase());
+
+		jar_name = jarName;
+		test_class = testClass;
+		test_name = testName;
+		android_id = androidId;
+		buildUiautomator(ctsTestCasePath);
+		
+		System.out.println("*******************");
+		System.out.println("---FINISH DEBUG----");
+		System.out.println("*******************");
+		
+	}
 	// 运行步骤
 	private void runUiautomator() {
 		creatBuildXml();
@@ -236,6 +261,51 @@ public class UiAutomatorHelper {
 
 		
 	}
+    /**
+     * 需求：编译和复制jar包指定文件
+     * @param newPath
+     */
+    private void buildUiautomator(String newPath) {
+		creatBuildXml();
+		modfileBuild();
+		buildWithAnt();
+		//复制文件到指定文件夹
+		copyFile(workspace_path + "\\bin\\" + jar_name + ".jar", newPath);
+		
+	}
+    /** 
+     * 复制单个文件 
+     * @param oldPath String 原文件路径 如：c:/fqf.txt 
+     * @param newPath String 复制后路径 如：f:/fqf.txt 
+     * @return boolean 
+     */ 
+   public void copyFile(String oldPath, String newPath) { 
+	   System.out.println("源文件路径："+oldPath);
+	   System.out.println("目标文件路径："+newPath);
+       try { 
+           int bytesum = 0; 
+           int byteread = 0; 
+           File oldfile = new File(oldPath); 
+           if (oldfile.exists()) { //文件存在时 
+               InputStream inStream = new FileInputStream(oldPath); //读入原文件 
+               FileOutputStream fs = new FileOutputStream(newPath); 
+               byte[] buffer = new byte[1444]; 
+               int length; 
+               while ( (byteread = inStream.read(buffer)) != -1) { 
+                   bytesum += byteread; //字节数 文件大小 
+                   System.out.println(bytesum); 
+                   fs.write(buffer, 0, byteread); 
+               } 
+               inStream.close(); 
+           } 
+       } 
+       catch (Exception e) { 
+           System.out.println("复制单个文件操作出错"); 
+           e.printStackTrace(); 
+
+       } 
+
+   } 
 
 	
 

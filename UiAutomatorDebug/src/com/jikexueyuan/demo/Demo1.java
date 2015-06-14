@@ -21,7 +21,7 @@ public class Demo1 extends UiAutomatorTestCase{
 		androidId="1";
 		sdkpath="E:\\Program Files (x86)\\Android\\android-sdk";
 		CtsHelper cts=new CtsHelper(workspase, className, jarName, androidId, sdkpath);
-		cts.setDevices("0123456789");
+		//cts.setDevices("0123456789");
 		cts.runTest();
 
 	}

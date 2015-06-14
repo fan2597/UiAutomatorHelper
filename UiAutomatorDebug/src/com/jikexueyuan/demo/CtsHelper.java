@@ -11,6 +11,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.ArrayList;
+import java.util.regex.Pattern;
 
 public class CtsHelper {
 	/*
@@ -32,7 +33,10 @@ public class CtsHelper {
 	private String ctsToolsPath="${SDK_PATH}\\android-cts\\tools\\";
 	//ROOT SDK目录
 	private String dcts_root_path="${SDK_PATH}";
-
+	//log与result path
+	private String logPath="";
+	private String resultPath="";
+	String fileName="";
 	
 	
 	//以下字段不需要改变
@@ -70,6 +74,9 @@ public class CtsHelper {
 	private String runPlanCmd="run cts --plan REPLAY";
 	private String devices="";
 	
+	//结果路径保存
+	private ArrayList<String> listResultPath=new ArrayList<String>();
+	
 	
 	/**
 	 * @param args
@@ -103,7 +110,8 @@ public class CtsHelper {
         CtsHelper cts=new CtsHelper(workspase, className, jarName, androidId, sdkPath);
         cts.setDevices(devices);
         cts.runTest();
-		
+       
+        
 	}
 	/**
 	 * 运行默认参数的CTS
@@ -136,7 +144,7 @@ public class CtsHelper {
 	 void runTest(){
 		//编译 将编译的jar复制到CTS testcase目录中
 		String testName="";		
-		new UiAutomatorHelper(jarName, className_FullName, testName, androidId, ctsPath_testCase+jarName+".jar");			
+		new UiAutomatorHelper(jarName, className_FullName, testName, androidId, (ctsPath_testCase+jarName+".jar").replaceAll(";", ""));			
 		//创建xml  testCase.xml  testplan.xml
 		createTestCaseXml("test"+jarName+"TestCase.xml");
 		createTestPlanXml("test"+jarName+"TestPlan.xml");			
@@ -146,6 +154,12 @@ public class CtsHelper {
 		}else{
 		execCmd(getRunCtsCmd("test"+jarName+"TestPlan"));
 		}
+		//输出log文件路径和结果文件路径
+		 System.out.println("***************************");
+	        for(String s:listResultPath){
+	        	System.out.println(s);
+	        }
+	     System.out.println("***************************");
 		
 	}
 	/**
@@ -197,7 +211,9 @@ public class CtsHelper {
 		 File caseFile=new File(ctsPath_testCase+xmlName);
 		    if (caseFile.exists()) {
 				caseFile.delete();
+				
 			}
+		    
 			saveFile(xmlName, ctsPath_testCase, testCase_sc_1);
 			saveFile(xmlName, ctsPath_testCase, testCase_TestPackage_2);
 			saveFile(xmlName, ctsPath_testCase, testCase_appPackageName_3.replace("REPLAY", className_FullName));
@@ -233,7 +249,9 @@ public class CtsHelper {
 		 File planFile=new File(ctsPath_testPlan+xmlName);
 		    if (planFile.exists()) {
 		    	planFile.delete();
+		    	
 			}
+
 			saveFile(xmlName, ctsPath_testPlan, plan_sc_1);
 			saveFile(xmlName, ctsPath_testPlan, plan_TestPlan_2);			
 			saveFile(xmlName, ctsPath_testPlan, plan_URI_3.replace("REPLAY", className_FullName));
@@ -249,7 +267,7 @@ public class CtsHelper {
 	private void saveFile(String fileName,String path,String line){
 		System.out.println(line);
 		File file=new File(path+fileName);
-		if (!file.exists()) {
+		while (!file.exists()) {
 			try {
 				file.createNewFile();
 			} catch (IOException e) {
@@ -288,10 +306,14 @@ public class CtsHelper {
 			InputStream in = p.getInputStream();
 			InputStreamReader re = new InputStreamReader(in);
 			BufferedReader br = new BufferedReader(re);
+			String info="";
 			String line = "";
-
 			while ((line = br.readLine()) != null) {
 				System.out.println(line);
+				info=getResultInfo(line);
+				if(!info.equals("")){
+				listResultPath.add(info);
+				}
 			}
 			br.close();
 
@@ -336,6 +358,32 @@ public class CtsHelper {
 	      
 	     return testCase;
 	    }
+	/**
+	 * 需求：获取结果路径，log路径
+	 * @return
+	 */
+	private String getResultInfo(String line){
+		//Created result dir 2015.06.13_23.55.28
+		// Saved log device_logcat_212048202233862593.zip
+		// Saved log host_log_225718056528107765.zip
+		// com.jikexueyuan.demo.Demo1 package complete: Passed 0, Failed 0, Not Executed 0
+		// Created xml report file at file://E:\Program Files (x86)\Android\android-sdk\android-cts\repository\results\2015.06.13_23.55.28\testResult.xml
+		
+		
+		if(line.matches(".*file://.*testResult.xml.*")){
+			return line.replaceAll(".*report.*file.*at.*file", "file");
+		}else if(line.matches(".*device_logcat_.*zip.*")){
+			return dcts_root_path+"\\android-cts\\repository\\logs\\"+fileName+"\\"+line.replaceAll(".*device_", "device_");
+		}else if(line.matches(".*host_log_.*zip")){
+			return dcts_root_path+"\\android-cts\\repository\\logs\\"+fileName+"\\"+line.replaceAll(".*host_log", "host_log");
+		}else if(line.matches(".*Created.*result.*dir.*\\d+.*")){
+			fileName=line.replaceAll(".*dir\\s+", "");
+			return fileName;
+		}else if(line.matches(".*complete:.*Passed.*Failed.*Not.*Executed.*")){
+			return line.replaceAll(".*complete:\\s+", "");
+		}
+		return "";
+	}
 	 
 
 }
